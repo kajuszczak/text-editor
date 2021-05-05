@@ -1,0 +1,22 @@
+{
+  "name": "text-editor",
+  "version": "1.0.0",
+  "description": "Text editor for recruitment purpose",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kajuszczak/text-editor.git"
+  },
+  "author": "Karolina Juszczak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kajuszczak/text-editor/issues"
+  },
+  "homepage": "https://github.com/kajuszczak/text-editor#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
