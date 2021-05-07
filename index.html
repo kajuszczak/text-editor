@@ -43,10 +43,10 @@
           <i class="gg-list"></i>
         </button>
       </div>
-      <iframe name="textEditorField" class="text-editor__field"></iframe>
+      <iframe name="textEditorField" id="text-editor__field" class="text-editor__field"></iframe>
       <div class="text-editor__data-btns">
-        <button class="text-editor__load-save-btns text-editor__load-btn">Load text</button>
-        <button class="text-editor__load-save-btns text-editor__save-btn">Save text</button>
+        <input class="text-editor__load-save-btns text-editor__load-btn" type="file" id="file-selector" accept=".json">
+        <input class="text-editor__load-save-btns text-editor__save-btn" type="button" id="file-saver" value="Save text"></input>
       </div>
     </section>
     <script src="js/text-editor.js"></script>

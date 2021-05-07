@@ -14,3 +14,9 @@ app.use(express.static(__dirname + '/public/'));
 app.listen(port, () => {
   console.log(`Server started on http://localhost:${port}`);
 });
+
+// const dictstring = JSON.stringify(dict);
+
+// const fs = require('fs');
+// fs.writeFile('file.json', dictstring);
+
