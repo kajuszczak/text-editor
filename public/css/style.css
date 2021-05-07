@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.text-editor__container {
+    width: 40rem;
+    height: 32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    border: 1px solid #000;
+}
+
+.text-editor__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-editor__buttons > button {
+  width: 4rem;
+  height: 2rem;
+  cursor: pointer;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-editor__field {
+    width: 24rem;
+    height: 10rem;
+    
+}

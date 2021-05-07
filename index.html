@@ -10,8 +10,24 @@
     <meta name="title" content="Text-editor" />
     <meta name="description" content="Text editor" />
     <title>Text editor</title>
+    <link href='https://css.gg/css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-    <h1>test </h1>
+    <section class="text-editor__container">
+      <div class="text-editor__buttons">
+        <button type="button" data-cmd="bold" class="text-editor__bold">
+          <i class="gg-format-bold"></i>
+        </button>
+        <button type="button" data-cmd="italic" class="text-editor__italic">
+          <i class="gg-format-italic"></i>
+        </button>
+        <button type="button" data-cmd="unorderedList" class="text-editor__bullet-list">
+          <i class="gg-list"></i>
+        </button>
+      </div>
+      <iframe name="textEditorField" class="text-editor__field"></iframe>
+    </section>
+    <script src="js/text-editor.js"></script>
   </body>
-  </html>
+</html>
