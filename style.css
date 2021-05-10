@@ -32,7 +32,7 @@ button {
 }
 
 button:hover {
-  background-color: #cfcfcf;
+  background-color: #b4b4b4;
 }
 
 /* container */
@@ -47,7 +47,7 @@ button:hover {
   margin: 4rem;
   border-radius: 1rem;
   padding: 2rem;
-  opacity: 0.8;
+  opacity: 0.9;
   background: linear-gradient(
     315deg,
     rgba(252, 252, 252, 0.8) 0%,
@@ -67,7 +67,6 @@ button:hover {
   align-items: center;
   width: 14rem;
   margin-right: 26rem;
-  z-index: 1;
 }
 
 .text-editor__edit-btns {
@@ -85,16 +84,11 @@ button:hover {
   align-items: center;
 }
 
-.active {
-  background-color: aqua;
-}
-
 /* txt field */
 
 .text-editor__field {
   width: 40rem;
   height: 20rem;
-  z-index: 1;
   border: none;
   border-radius: 1rem;
   background-color: #fff;
@@ -111,7 +105,6 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   margin-left: 18rem;
-  z-index: 1;
 }
 
 .text-editor__load-save-btns {
@@ -122,5 +115,6 @@ button:hover {
   padding: 1rem;
   font-family: "Montserrat";
   font-size: 1rem;
+  cursor: pointer;
 }
 
